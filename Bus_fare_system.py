@@ -9,4 +9,4 @@ elif age >=18 and age <=60:
     fare = ticket_price 
 else:
     fare = ticket_price * 0.75
-print("Final payable fare: ₹", fare)
+print("Final payable fare: ", fare)
