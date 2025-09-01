@@ -1,8 +1,8 @@
 bill=int(input("Enter total bill amount: "))
 
-if bill>5000:
+if bill>=5000:
     discount=0.20*bill
-elif bill<=2000 and bill>=5000:
+elif bill>=2000 and bill<=5000:
     discount= 0.10*bill
 else:
     discount=0
